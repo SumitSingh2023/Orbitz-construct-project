@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <link rel="icon" type="image/png" href="https://th.bing.com/th?id=ODLS.f4698548-6d94-4df6-82ac-28410b1d0146&w=32&h=32&qlt=94&pcl=fffffa&o=6&cb=1107&pid=1.2">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    
+    <title>Orbitz Hotel Deals, Flights, Cheap Vacations & Rental cars </title>
+
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+    <header> <!--header start-->
+
+        <div class="navbar"> <!--navbar start-->
+                
+            <div class="first-nav"> <!--nav-first-part-start-->
+    
+                <a href="#"><img src="https://www.orbitz.com/_dms/header/logo.svg?locale=en_US&siteid=70201&2&3ec60977" width="160px" alt="">
+                </a>
+                   
+                <div class="travel-more">
+    
+                    <a href="#"><p class="travel-text">More travel</p>
+                    <i id="arr-down" class="fa-solid fa-less-than fa-rotate-270 fa-2xs" ></i>
+                    </a>
+                        
+                    </div>
+    
+            </div> <!--nav-first-part-end-->
+                
+    
+            <div class="sec-nav"> <!--nav-sec-part-start-->
+    
+                <div class="get-app">
+    
+                    <a href="#">
+    
+                        <div class="phone">
+                            <a href="#"><img src="image/smartphone.png" width="20px" alt=""></a>
+                        </div>
+    
+                        <div class="get-app-text">
+                            <p>Get the app</p>
+                        </div>
+                    </a>
+                        
+                </div>
+                    
+                <div id="lang" class="sec-nav-list">
+                    <a href="#">English</a>
+                </div>
+                    
+                <div id="list-your-property"        class="sec-nav-list">
+                        <a href="https://apps.expediapartnercentral.com/en_US/list?utm_medium=referral&utm_source=wwworbitzcom-en_US&utm_campaign=HomePage&utm_contentewd=pwa-header-btn&siteId=70201&tpid=70201&eapid=0&langId=1033">List your property</a>
+                </div>
+    
+                <div id="support"  class="sec-nav-list">
+    
+                    <a href="https://www.orbitz.com/helpcenter">Support</a>
+    
+                        <a class="icon" href="#">
+                            <img src="https://img.icons8.com/?size=100&id=7695&format=png" width="25px" style="border-radius: 50%; background-color: white;" alt="">
+                    </a>
+    
+                </div>
+    
+                <div id="trips"  class="sec-nav-list">
+                        
+                    <a href="https://www.orbitz.com/trips">Trips</a>
+    
+                    <a class="icon" href="#">
+                        <img src="https://image.shutterstock.com/image-vector/shopping-bag-icon-260nw-300149084.jpg" width="25px" style="border-radius: 50%;" alt="">
+                     </a>
+    
+                </div>
+    
+                <div id="signin"  class="sec-nav-list">
+    
+                    <a href="#">Sign in</a>
+    
+                    <a class="icon" href="#">
+                        <img src="https://img.icons8.com/?size=100&id=7819&format=png" width="25px" style="background-color: white; border-radius: 50%;" height="25px"  alt="">
+                    </a>
+    
+                </div>
+    
+            </div><!--nav-sec-part-end-->
+    
+        </div> <!--navbar end-->
+            
+    
+    </header> <!--header end-->
+
+   
+    <div class="input"> <!--form-input-start-->
+        <div class="list-stays-flight"><!--stay-flight-cars-part-start-->
+    
+                <ul>
+                    <li class="lis"><a href="#">Stays</a></li>
+                    <li class="lis"><a href="#">Flights</a></li>
+                    <li class="lis"><a href="#">Cars</a></li>
+                    <li class="lis"><a href="#">Bundle & save</a></li>
+                    <li class="lis"><a href="#">Things to do</a></li>
+                    <li class="lis"><a href="#">Cruises</a></li>
+                </ul>
+    
+            </div> <!--stay-flight-cars-part-end-->
+    
+            <div class="input-of-cst">
+    
+                <div class="input-cont">
+    
+                    <form action="#" id="inp-form">
+    
+                        <div class="input-location">
+    
+                            <input type="text" name="name"            class="input-location" placeholder="Going to">
+    
+                            <div class="icon1" >
+                                <i class="fa-solid fa-location-dot" 
+                                    aria-hidden="true">
+                                </i>
+                            </div>
+    
+                        </div>
+    
+                        <div class="input-location">
+    
+                            <input type="date" name="name"    class="input-location" placeholder="Dates" style="font-size: 1.4em;">
+    
+                            <div class="icon1" >
+                                <i class="fa-regular fa-calendar"       aria-hidden="true"></i>
+                            </div>
+    
+                        </div>
+    
+                        <div class="input-location">
+    
+                            <input type="text" name="name" class="input-location" placeholder="Travelers">
+    
+                            <div class="icon1" >
+                                <i class="fa-solid fa-user" aria-hidden="true"></i>
+                            </div>
+    
+                        </div>
+
+                        
+    
+                        <button id="submit">
+                            <div>Search</div>
+                        </button>
+        
+                    </form>
+    
+                    <div class="check-box">
+    
+                        <div class="checkbox1">
+                            <input type="checkbox">
+                            <p>Add a flight</p>
+                        </div>
+    
+                        <div class="checkbox1">
+                            <input type="checkbox">
+                            <p>Add a car</p>
+    
+                        </div>
+    
+                    </div>
+        
+    
+                </div>
+    
+               
+            </div>
+    </div><!--form-input-end-->
+    
+       <div id="card">
+           
+            <div class="card1">
+                <a href="#"><img src="https://forever.travel-assets.com/flex/flexmanager/images/2022/02/09/ORB_BrandPromise_TravelAsYouAre_imgB_840x473_20220207.jpg?impolicy=fcrop&w=600&h=257&q=medium" alt="logo">
+                </a>
+    
+            </div>
+     
+           <div class="card1">
+               <a href="#"><img src="https://forever.travel-assets.com/flex/flexmanager/images/2022/02/09/ORB_BrandPromise_Rewards_imgB_840x473_20220207.jpg?impolicy=fcrop&w=600&h=257&q=medium" alt="logi">
+               </a>
+           </div> 
+    
+           <div class="card1">
+               <a href="#"><img src="https://forever.travel-assets.com/flex/flexmanager/images/2022/02/09/ORB_BrandPromise_InsiderPrices_imgB_840x473_20220207.jpg?impolicy=fcrop&w=400&h=171&q=mediumLow" alt="logo">
+               </a>
+    
+           </div>  
+    
+       </div>
+    
+       <div class="trend-destiny">
+    
+            <div class="text">
+                <h3>Explore stays in trending destinations</h3>
+            </div>
+    
+            <div class="main-trend-place">
+    
+                <div class="item-place" id="box">
+    
+                    <div class="item">
+                        <a href="#">
+                            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/88000/88565-Danbury-And-Vicinity.jpg?impolicy=fcrop&w=357&h=201&p=1&q=medium" alt="logo">
+    
+                        </a>
+    
+                        <div class="info">
+                            <h3>Danbury</h3>
+                            <p>United States of America</p>
+                        </div>
+    
+                        
+                    </div>
+    
+                    <div class="item">
+                        <a href="#">
+                            <img src="https://mediaim.expedia.com/destination/2/7bdf878d9ed294eb7b1b8a879b2fe36d.jpg?impolicy=fcrop&w=357&h=201&p=1&q=medium" alt="logo">
+                        </a>
+    
+                        <h3>Noida</h3>
+                        <p>India</p>
+                    </div>
+    
+                    <div class="item">
+                        <a href="#">
+                            <img src="https://mediaim.expedia.com/destination/1/144ea47bbd296f34103f4eb1aae55ec9.jpg?impolicy=fcrop&w=357&h=201&p=1&q=medium" alt="logo">
+                        </a>
+    
+                        <h3>Aurangabad</h3>
+                        <p>India</p>
+                    </div>
+    
+                    <div class="item">
+                        <a href="#">
+                            <img src="https://mediaim.expedia.com/destination/2/0e88f234783506e26a4d65fa07f76279.jpg?impolicy=fcrop&w=357&h=201&p=1&q=medium" alt="logo">
+                        </a>
+    
+                        <h3>Bhopal</h3>
+                        <p>India</p>
+                    </div>
+    
+                    <div class="item">
+                        <a href="#">
+                            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/97000/97619-Dehradun-And-Vicinity.jpg?impolicy=fcrop&w=357&h=201&p=1&q=medium" alt="logo">
+                        </a>
+    
+                        <h3>Dehradun</h3>
+                        <p>India</p>
+    
+                    </div>
+    
+                    <div class="item">
+                        <a href="#">
+                            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/75000/75448-Mahabaleshwar-And-Vicinity.jpg?impolicy=fcrop&w=357&h=201&p=1&q=medium" alt="logo">
+                        </a>
+    
+                        <h3>Mahabaleshwar</h3>
+                        <p>India</p>
+    
+                    </div>
+    
+                    <div class="item">
+                        <a href="#">
+                            <img src="https://mediaim.expedia.com/destination/2/7fd9fa07b50c7bb066a06b35662ae1ec.jpg?impolicy=fcrop&w=357&h=201&p=1&q=medium" alt="logo">
+                        </a>
+    
+                        <h3>Paud</h3>
+                        <p>India</p>
+    
+                    </div>
+    
+                    <div class="item">
+                        <a href="#">
+                            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/206000/206684-Shirdi.jpg?impolicy=fcrop&w=357&h=201&p=1&q=medium" alt="logo">
+                        </a>
+    
+                        <h3>Shirdi</h3>
+                        <p>India</p>
+    
+                    </div>
+    
+                </div>
+                
+               <img src="image/less.png" class="left" id="left"  alt="">
+               
+                <img src="image/great.png" class="right" id="right" alt="">
+               
+            </div>
+    
+       </div>
+        
+       <div class="feature-offer"> <!--feature part start-->
+            <div class="feature-heading">
+                <h2>Featured offers</h2>
+            </div>
+    
+            <div class="feature-card">
+                <div class="feature-card1">
+                    <img src="https://forever.travel-assets.com/flex/flexmanager/images/2021/11/02/ORB_Storefront_LastMinute_imgB_900x600_20211101.jpg?impolicy=fcrop&w=300&h=200&q=mediumLow" alt="">
+    
+                    <div class="text-img">
+                        <h3>Last-minute deals</h3>
+                    </div>
+                    <div class="small-text">
+                        <p>Gateway today</p>
+                    </div>
+                </div>
+                <div class="feature-card1">
+                    <img src="https://forever.travel-assets.com/flex/flexmanager/images/2021/11/02/ORB_Storefront_AllInclusive_imgB_900x600_20211101.jpg?impolicy=fcrop&w=300&h=200&q=mediumLow" alt="">
+    
+                    <div class="text-img">
+                        <h3>All-inclusive resorts</h3>
+                    </div>
+                    <div class="small-text">
+                        <p>Enjoy sun and fun</p>
+                    </div>
+    
+                </div>
+                <div class="feature-card1">
+                    <img src="https://forever.travel-assets.com/flex/flexmanager/images/2021/11/02/ORB_Storefront_MOD_imgB_900x600_20211101.jpg?impolicy=fcrop&w=300&h=200&q=mediumLow" alt="">
+    
+                    <div class="text-img">
+                        <h3>Insider Prices</h3>
+                    </div>
+                    <div class="small-text">
+                        <p>Members get rewarded</p>
+                    </div>
+    
+                </div>
+                <div class="feature-card1">
+                    <img src="https://forever.travel-assets.com/flex/flexmanager/images/2021/11/02/ORB_Storefront_JetAndReset_imgB_900x600_20211101.jpg?impolicy=fcrop&w=300&h=200&q=mediumLow" alt="">
+    
+                    <div class="text-img">
+                        <h3>Jet and reset</h3>
+                    </div>
+                    <div class="small-text">
+                        <p>Fly somewhere beachy and warm</p>
+                    </div>
+    
+    
+                </div>
+            </div>
+       </div><!--feature part start-->
+    
+       <div class="fifth-mini-cont">
+           <div class="fst-part">
+                
+    
+                <img src="https://tpc.googlesyndication.com/simgad/1346952519988602312?'" alt="">
+           </div>
+           <div class="snd-part">
+               <div class="sec-part-img">
+                    
+                    <img src="https://tpc.googlesyndication.com/simgad/8609585012868510257?" alt="">
+                     
+                     
+                    <h1>Discover the treasures of Galicia</h1>
+    
+                    <p>Blessed with natural beauty and rich culture, this corner of Spain is a gem.
+                    </p>
+               </div>
+           </div>
+       </div>
+    
+       <div class="sixth-mini-cont">
+    
+            <div class="upper-part">
+    
+                <div class="upr-inside1">
+                    <img src="https://tpc.googlesyndication.com/simgad/10662187624481219801?" alt="">
+                </div>
+    
+                <div class="upr-inside2">
+                    <div class="uprHead">
+                        <h2>Wellness bliss, for adults-only</h2>
+                    </div>
+    
+                    <div class="uprP">
+                        <p>Discover ultimate wellness amidst nature: beachfront yoga, tranquil spa, and luxurious suites</p>
+                    </div>
+                </div>
+    
+            </div>
+    
+            <div class="lower-part">
+                <div class="img1">
+                    <img src="https://tpc.googlesyndication.com/simgad/14133373693999081520?" alt="">
+    
+                    <div class="lwrTxt">
+                        <p>Beaches</p>
+                    </div>
+    
+                </div>
+                <div class="img1">
+                    <img src="https://tpc.googlesyndication.com/simgad/12450605804283269673?" alt="">
+    
+                    <div class="lwrTxt">
+                        <p>Forest</p>
+                    </div>
+    
+                </div>
+                <div class="img1">
+                    <img src="https://tpc.googlesyndication.com/simgad/10319225927942341165?" alt="">
+    
+                    <div class="lwrTxt">
+                        <p>Night Out</p>
+                    </div>
+    
+                </div>
+    
+            </div>
+       </div>
+    
+       <div class="seven-mini-cont">
+            <div>
+                <h2>Here to help keep you on the move</h2>
+            </div>
+    
+            <div class="inside-card">
+    
+                <div class="data">
+    
+                    <div class="data1">
+                        <h3>Change or cancel a trip</h3>
+                        <p>Make updates to your itinerary or cancel a booking</p>
+                    </div>
+                    <div class="data2">
+                        <i class="fa-solid fa-pencil"></i>
+                    </div>
+    
+                </div>
+    
+                <div class="data">
+    
+                    <div class="data1">
+                        <h3>Use a credit or coupon</h3>
+                        <p>Apply a coupon code or credit to a new trip</p>
+                    </div>
+    
+                    <div class="data2">
+                        <i class="fa-solid fa-dollar-sign"></i>
+                    </div>
+                    
+                </div>
+    
+                <div class="data">
+    
+                    <div class="data1">
+                        <h3>Track your refund</h3>
+                        <p>Check the status of a refund currently in progress</p>
+                    </div>
+    
+                </div>
+            </div>
+       </div>
+    
+       <div class="eight-mini-cont">
+            <div><h2>Traveling tips</h2></div>
+            <div  class="parent">
+                <div>
+                    <img src="https://forever.travel-assets.com/flex/flexmanager/images/2021/11/18/ORB_Blog_NationalParks_imgB_1199x399_20211117.jpg?impolicy=fcrop&w=1400&h=600&q=mediumHigh" style="padding-left: 20px; filter: brightness(40%);" alt="">
+    
+                    <div class="txt-on-img1">
+                        <h2>National Parks</h2>
+                    </div>
+    
+                    <div class="txt-on-img2">
+                        <p>There's plenty to keep you busy.</p>
+                    </div>
+    
+                    <div class="txt-on-img3">
+                        <p>Learn more</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="https://forever.travel-assets.com/flex/flexmanager/images/2021/11/18/ORB_Blog_RoadTrips_imgB_375x468_20211117.jpg?impolicy=fcrop&w=450&h=600&q=mediumHigh" style="filter: brightness(40%);">
+    
+                    <div class="txt-on-img1">
+                        <h2>The perfect road trip</h2>
+                    </div>
+    
+                    <div class="txt-on-img2">
+                        <p>Find an adventure for every season</p>
+                    </div>
+    
+                    <div class="txt-on-img3">
+                        <p>Read on</p>
+                    </div>
+    
+    
+                </div>
+            </div>
+       </div>
+    
+       <div class="nine-mini-cont">
+    
+           <div class="mini-cont1">
+                <img src="https://a.travel-assets.com/mad-service/footer/marquee/ORB_App_Footer_v1.jpg" alt="">
+           </div>
+    
+           <div class="mini-cont2">
+                <div>
+                    <div>
+                        <h2>Rewards are waiting for you in the Orbitz app</h2>
+                    </div>
+                    <div>
+                        <ul>
+                            <li style="padding-left: 7px;">Earn 4% back when you book your hotel in app, vs. 3% on site</li>
+                            <li style="padding-left: 7px;">Get flight status and gate number notification</li>
+                            <li style="padding-left: 7px;">Have question about your stay? Message your hotel right in the app</li>
+                        </ul>
+                    </div>
+
+                    <button id="submit">
+                        <div>Search</div>
+                    </button>
+        
+                    <div>
+                        <h4>Scan the Qr code with your device camera and download our app</h4>
+                    </div>
+                </div>
+    
+                <div>
+                    <img src="https://a.travel-assets.com/mad-service/qr-code/portfolio_app_landing/qr_app_landing_footer_orbitz.png" style="width: 118px; height: 118px; padding-left: 40px;
+                    padding-right: 15px;
+                    padding-top: 10px;" alt="">
+                </div>
+                
+           </div>
+    
+           
+       </div>
+    
+       <div class="more-destination">
+           <div class="more-destiny-head">
+               <h2>More destinations</h2>
+           </div>
+           <div class="card-destiny">
+    
+               <div>
+                    <div>
+                        <h3>Destination deals</h3>
+                    </div>
+    
+                    <div>
+                        <i class="fa-sharp fa-solid fa-less-than fa-rotate-270 fa-xs"></i>
+                    </div>
+               </div>
+    
+               <div>
+                    <div>
+                        <h3>Top hotel beach destinations</h3>
+                    </div>
+    
+                    <div>
+                        <i class="fa-sharp fa-solid fa-less-than fa-rotate-270 fa-xs"></i>
+                    </div>
+                </div>
+                
+               <div>
+    
+                    <div>
+                        <h3>Top hotel city destinations</h3>
+                    </div>
+    
+                    <div>
+                        <i class="fa-sharp fa-solid fa-less-than fa-rotate-270 fa-xs"></i>
+                    </div>
+    
+               </div>
+    
+    
+               <div>
+                   
+                    <div>
+                        <h3>Top vacation destinations</h3>
+                     </div>
+    
+                    <div>
+                        <i class="fa-sharp fa-solid fa-less-than fa-rotate-270 fa-xs"></i>
+                        </i>
+                    </div>
+    
+               </div>
+    
+    
+               <div>
+                   <div>
+                        <h3>Top flight destinations</h3>
+                   </div>
+    
+                   <div>
+                    <i class="fa-sharp fa-solid fa-less-than fa-rotate-270 fa-xs"></i>
+                   </div>
+    
+               </div>
+    
+               <div>
+                    <div>
+                        <h3>Top car rental destinations in America</h3>
+                    </div>
+    
+                    <div>
+                        <i class="fa-sharp fa-solid fa-less-than fa-rotate-270 fa-xs"></i>
+                        </i>
+                    </div>
+               </div>
+    
+           </div>
+    
+       </div>
+    
+    
+       <footer>
+           <div class="foter-main">
+    
+               <div class="footer-heading">
+                    <img src="https://a.travel-assets.com/globalcontrols-service/content/f285fb631b0a976202ef57611c7050e9ef5ca51a/images/EG_Wordmark_blue_RGB.svg" style="width: 150px; height: 25px; padding-bottom: 10px;" alt="">
+    
+               </div>
+    
+               <div class="footer-data">
+                    <div class="company">
+                        <h3>Company</h3>
+                        <ul style="list-style-type: none;">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Jobs</a></li>
+                            <li><a href="#">List your property</a></li>
+                            <li><a href="#">Partnerships</a></li>
+                            <li><a href="#">Newsroom</a></li>
+                            <li><a href="#">Investor Relations</a></li>
+                            <li><a href="#">Site Map</a></li>
+                            <li><a href="#">Orbitz Reward</a></li>
+                            <li><a href="#">Advertising</a></li>
+                        </ul>
+                    </div>
+                    <div class="Explore">
+                        <h3>Explore</h3>
+                        <ul style="list-style-type: none;">
+    
+                            <li><a href="#">Hotels in United States</a></li>
+                            <li><a href="#">Vacation Rentals in United States</a></li>
+                            <li><a href="#">Car Rentals in United States</a></li>
+                            <li><a href="#">Domestic Flights</a></li>
+                            <li><a href="#">Vacation Packages in United States</a></li>
+                            <li><a href="#">Orbitz Reviews</a></li>
+                            <li><a href="#">Orbitz Coupons</a></li>
+                            <li><a href="#">LGBTQ Travel</a></li>
+                            <li><a href="#">Unique Accommodations</a></li>
+                            <li><a href="#">Travel Blog</a></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="Policies">
+                        <h3>Policies</h3>
+    
+                        <ul style="list-style-type: none;">
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Vrbo terms and conditions</a></li>
+                            <li><a href="#">Orbitz Rewards Terms</a></li>
+                            <li><a href="#">Your Privacy Choices</a></li>
+                        </ul>
+                    </div>
+                    <div class="Help">
+                        <h3>Help</h3>
+                        <ul style="list-style-type: none;">
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Cancel your hotel or vacation rental booking</a></li>
+                            <li><a href="#">Cancel your flight</a></li>
+                            <li><a href="#">Refund timelines, policies & processes</a></li>
+                            <li><a href="#">Use an Orbitz Coupon</a></li>
+                        </ul>
+                        
+                    </div>
+    
+               </div>
+    
+           </div>
+    
+           <div class="line">
+               <hr>
+           </div>
+    
+           <div class="end-line">
+               <p>© 2023 Orbitz, LLC, an Expedia Group Company. All rights reserved.</p>
+               
+               <p>Orbitz, Orbitz.com, and the Orbitz logo are trademarks or registered trademarks of Orbitz, LLC. CST# 2083930-50.</p>
+           </div>
+       </footer>
+       
+</body>
+    
+    
+<script src="index.js"></script>
+</html>
+
+
+   
